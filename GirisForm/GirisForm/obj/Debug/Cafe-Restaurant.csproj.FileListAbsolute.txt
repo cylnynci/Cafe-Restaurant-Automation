@@ -1,0 +1,12 @@
+C:\Users\Ceylan\Desktop\Cafe-Restaurant Otomasyonu\GirisForm\GirisForm\bin\Debug\GirisForm.exe.config
+C:\Users\Ceylan\Desktop\Cafe-Restaurant Otomasyonu\GirisForm\GirisForm\bin\Debug\GirisForm.exe
+C:\Users\Ceylan\Desktop\Cafe-Restaurant Otomasyonu\GirisForm\GirisForm\bin\Debug\GirisForm.pdb
+C:\Users\Ceylan\Desktop\Cafe-Restaurant Otomasyonu\GirisForm\GirisForm\obj\Debug\Cafe-Restaurant.csprojAssemblyReference.cache
+C:\Users\Ceylan\Desktop\Cafe-Restaurant Otomasyonu\GirisForm\GirisForm\obj\Debug\GirisForm.FrmGrs.resources
+C:\Users\Ceylan\Desktop\Cafe-Restaurant Otomasyonu\GirisForm\GirisForm\obj\Debug\GirisForm.Properties.Resources.resources
+C:\Users\Ceylan\Desktop\Cafe-Restaurant Otomasyonu\GirisForm\GirisForm\obj\Debug\Cafe-Restaurant.csproj.GenerateResource.cache
+C:\Users\Ceylan\Desktop\Cafe-Restaurant Otomasyonu\GirisForm\GirisForm\obj\Debug\Cafe-Restaurant.csproj.CoreCompileInputs.cache
+C:\Users\Ceylan\Desktop\Cafe-Restaurant Otomasyonu\GirisForm\GirisForm\obj\Debug\GirisForm.exe
+C:\Users\Ceylan\Desktop\Cafe-Restaurant Otomasyonu\GirisForm\GirisForm\obj\Debug\GirisForm.pdb
+C:\Users\Ceylan\Desktop\Cafe-Restaurant Otomasyonu\GirisForm\GirisForm\obj\Debug\GirisForm.MenuForm.resources
+C:\Users\Ceylan\Desktop\Cafe-Restaurant Otomasyonu\GirisForm\GirisForm\obj\Debug\GirisForm.MasalarForm.resources

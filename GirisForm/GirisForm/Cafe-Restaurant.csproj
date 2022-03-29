@@ -1,0 +1,253 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{69F3014C-57E8-424C-AB91-65556AF08188}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>GirisForm</RootNamespace>
+    <AssemblyName>GirisForm</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AyarlarForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AyarlarForm.Designer.cs">
+      <DependentUpon>AyarlarForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="cGenel.cs" />
+    <Compile Include="cMasalar.cs" />
+    <Compile Include="cPersonelHareketleri.cs" />
+    <Compile Include="cPersoneller.cs" />
+    <Compile Include="GirisForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GirisForm.Designer.cs">
+      <DependentUpon>GirisForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="KasaİslemleriForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="KasaİslemleriForm.Designer.cs">
+      <DependentUpon>KasaİslemleriForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="KilitForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="KilitForm.Designer.cs">
+      <DependentUpon>KilitForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MasalarForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MasalarForm.Designer.cs">
+      <DependentUpon>MasalarForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MenuForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MenuForm.Designer.cs">
+      <DependentUpon>MenuForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MutfakForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MutfakForm.Designer.cs">
+      <DependentUpon>MutfakForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MüsterilerForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MüsterilerForm.Designer.cs">
+      <DependentUpon>MüsterilerForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RaporlarForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RaporlarForm.Designer.cs">
+      <DependentUpon>RaporlarForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="RezervasyonForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RezervasyonForm.Designer.cs">
+      <DependentUpon>RezervasyonForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SiparisForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SiparisForm.Designer.cs">
+      <DependentUpon>SiparisForm.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="GirisForm.resx">
+      <DependentUpon>GirisForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MasalarForm.resx">
+      <DependentUpon>MasalarForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MenuForm.resx">
+      <DependentUpon>MenuForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\AGTLHSQUEI1272018215114_jet-setter-j459-01-acik-mavi-duvar-kagidi.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\11842_kucuk.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\11842_kucuk1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\exit-button-png-open-2000.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Screenshot_2018-09-05-12-37-05-e1536140337617.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Screenshot_2018-09-05-12-37-05-e15361403376171.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\k_02211710_Hosgeldiniz.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\41613.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\white-pure-orchid-flower-spiral-notepad-pencil-coffee-cup-blue-background_23-2148066489.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MenüForm.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Masa.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Masa1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Rezervasyon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PaketServis.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Müşteriler.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Masa2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Müşteriler1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Kasaİşlem.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Mutfak.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Raporlar.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Screenshot_2018-09-05-12-37-05-e15361403376172.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Kilit.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Ayarlar.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MasalarForm.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Masa1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\GeriDönİkon.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Çıkışİcon.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Dolu.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Dolu.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Boş.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Rezerve.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Boş1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\AçıkRezerve.jpg" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
